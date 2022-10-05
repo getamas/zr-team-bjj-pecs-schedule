@@ -2959,7 +2959,7 @@ mark{
     font-size:var(--text-sm)
 }
 :root{
-    --cd-color-event-1:hsl(199, 25%, 46%);
+    --cd-color-event-1: #007600;
     --cd-color-event-1-h:199;
     --cd-color-event-1-s:25%;
     --cd-color-event-1-l:46%;
@@ -2984,8 +2984,8 @@ mark{
     --cd-color-border-s:0%;
     --cd-color-border-l:92%;
     --font-primary: 'Source Sans Pro', sans-serif;
-    --schedule-rows-number: 19;
-    --schedule-rows-height: 50px
+    --schedule-rows-number: 25;
+    --schedule-rows-height: 35px;
 }
 body{
     color:hsl(0, 0%, 13%);
@@ -3004,12 +3004,7 @@ a{
 }
 @media (min-width: 64rem){
     .js .cd-schedule{
-        width:calc(100% - 1.25em);
-        width:calc(100% - 2*var(--component-padding));
-        margin-left:auto;
-        margin-right:auto;
-        max-width:90rem;
-        max-width:var(--max-width-xl)
+        width: 100%;
     }
     .js .cd-schedule::before{
         content:'desktop'
