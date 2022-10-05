@@ -3108,7 +3108,7 @@ a{
     padding:0 var(--component-padding);
     display:-ms-flexbox;
     display:flex;
-    overflow-x:scroll;
+    /*overflow-x:scroll; */
     -webkit-overflow-scrolling:touch
 }
 .cd-schedule__group>ul::after{
@@ -3139,7 +3139,7 @@ a{
     display:inline-block;
     margin-bottom:0.75em;
     margin-bottom:var(--space-sm);
-    font-weight:bold
+    font-weight:bold;
 }
 @media (min-width: 64rem){
     .js .cd-schedule__top-info{
@@ -3153,10 +3153,10 @@ a{
         height:var(--schedule-rows-height);
         border-bottom:1px solid hsl(0, 0%, 92%);
         border-bottom:1px solid var(--cd-color-border);
-        padding:0
+        padding:0;
     }
     .js .cd-schedule__top-info>span{
-        font-weight:normal;
+        font-weight:bold;
         font-size:0.83333em;
         font-size:var(--text-sm);
         margin-bottom:0

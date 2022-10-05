@@ -85,10 +85,10 @@
 		var self = this;
 		for(var i = 0; i < this.singleEvents.length; i++) {
 			// open modal when user selects an event
-			this.singleEvents[i].addEventListener('click', function(event){
+			/* this.singleEvents[i].addEventListener('click', function(event){
 				event.preventDefault();
 				if(!self.animating) self.openModal(this.getElementsByTagName('a')[0]);
-			});
+			}); */
 		}
 		//close modal window
 		this.modalClose.addEventListener('click', function(event){
